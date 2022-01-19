@@ -21,8 +21,8 @@ import java.util.List;
 public class OrderRecords {
     public static OrderPlaceResponseModel placeOrderToDb(OrderPlaceRequestModel requestModel)
     {
-        String clientId = "AakGkJhPTTBCW5iHYmCVkWSabNQFTHCXLeI8GcudKqXcebaCfryHy6uAzNqCyPcCmk3dXczdwyxdtzzn";
-        String clientSecret = "EPPiWAhjOvCAxedyWtlrfHRJnT2-jKZa4cwV-Yol1So9EDygp6HGZqFVHWH1MgkarbYE1RDNfvcJX9s0";
+        String clientId = "";
+        String clientSecret = "";
         ServiceLogger.LOGGER.info("Inserting order to database...");
         try
         {
@@ -176,8 +176,8 @@ public class OrderRecords {
     }
 
     public static ResponseModel completeOrderToDb(String paymentId, String token, String PayerID) {
-        String clientId = "AakGkJhPTTBCW5iHYmCVkWSabNQFTHCXLeI8GcudKqXcebaCfryHy6uAzNqCyPcCmk3dXczdwyxdtzzn";
-        String clientSecret = "EPPiWAhjOvCAxedyWtlrfHRJnT2-jKZa4cwV-Yol1So9EDygp6HGZqFVHWH1MgkarbYE1RDNfvcJX9s0";
+        String clientId = "";
+        String clientSecret = "";
         ServiceLogger.LOGGER.info("Completing order to database...");
         try
         {
@@ -216,8 +216,8 @@ public class OrderRecords {
 
     public static OrderRetrieveResponseModel retrieveOrderFromDb(OrderRetrieveRequestModel requestModel)
     {
-        String clientId = "AakGkJhPTTBCW5iHYmCVkWSabNQFTHCXLeI8GcudKqXcebaCfryHy6uAzNqCyPcCmk3dXczdwyxdtzzn";
-        String clientSecret = "EPPiWAhjOvCAxedyWtlrfHRJnT2-jKZa4cwV-Yol1So9EDygp6HGZqFVHWH1MgkarbYE1RDNfvcJX9s0";
+        String clientId = "";
+        String clientSecret = "";
         ServiceLogger.LOGGER.info("Retrieving order to database...");
         try
         {
